@@ -12,3 +12,6 @@ Data Driven Framework with Page Object Model design pattern : -
 	Create config.properties file
 	Create BaseClass & ActionDriver class
 	Write Page Objects & methods in page classes
+
+
+Testing - 1 change
