@@ -55,7 +55,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 22, 2022 10:42:00 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 24, 2022 08:51:21 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -114,10 +114,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='90%'><span class='strong'>9</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='60%'><span class='strong'>6</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='10%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='40%'>4</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -135,17 +135,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>loginTest</span>
-						<span class='test-time'>Sep 22, 2022 10:42:15 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 24, 2022 08:51:52 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:42:15 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:43:35 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 19s+801ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:51:52 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:52:03 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+185ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -157,12 +157,34 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:43:35 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:52:03 PM</td>
 				<td class='step-details'>
-						Pass Test case is: loginTest
+						<span class='badge white-text red'>loginTest - Test Case Failed</span>
 					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:52:03 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'CHITTARANJAN-ID', ip: '192.168.29.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [efa89c4626e83ecbbfdb6f9e902aaa9a, actions {actions=[org.openqa.selenium.interactions.Sequence@5482bcac]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\chitt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58080/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efa89c4626e83ecbbfdb6f9e902aaa9a - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:52:03 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\loginTest_20220924085203.png' src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\loginTest_20220924085203.png' data-src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\loginTest_20220924085203.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -170,17 +192,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>createAccountTest</span>
-						<span class='test-time'>Sep 22, 2022 10:44:00 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 24, 2022 08:52:06 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:44:00 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:44:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 26s+708ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:52:06 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:52:49 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 42s+675ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -192,12 +214,34 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:44:27 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:52:48 PM</td>
 				<td class='step-details'>
-						Pass Test case is: createAccountTest
+						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
 					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:52:48 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'CHITTARANJAN-ID', ip: '192.168.29.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff792a9452c44a7b8504472273e6342f, actions {actions=[org.openqa.selenium.interactions.Sequence@7f3ca64a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\chitt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58128/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff792a9452c44a7b8504472273e6342f - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:52:49 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\createAccountTest_20220924085248.png' src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\createAccountTest_20220924085248.png' data-src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\createAccountTest_20220924085248.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -208,14 +252,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>myStroreLogoTest</span>
-						<span class='test-time'>Sep 22, 2022 10:44:47 PM</span>
+						<span class='test-time'>Sep 24, 2022 08:53:08 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:44:47 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:44:47 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+126ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:53:08 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:53:08 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+144ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -229,7 +273,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:44:47 PM</td>
+				<td class='timestamp'>8:53:08 PM</td>
 				<td class='step-details'>
 						Pass Test case is: myStroreLogoTest
 					
@@ -240,17 +284,52 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
 						<span class='test-name'>myStroreTitleTest</span>
-						<span class='test-time'>Sep 22, 2022 10:44:58 PM</span>
+						<span class='test-time'>Sep 24, 2022 08:53:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Sep 24, 2022 08:53:27 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:53:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+23ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>8:53:27 PM</td>
+				<td class='step-details'>
+						Pass Test case is: myStroreTitleTest
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>productAvailabilityTest</span>
+						<span class='test-time'>Sep 24, 2022 08:53:45 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:44:58 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:44:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+370ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:53:45 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:53:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+609ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -264,26 +343,26 @@
 		<tbody>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:44:58 PM</td>
+				<td class='timestamp'>8:53:57 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text red'>myStroreTitleTest - Test Case Failed</span>
+						<span class='badge white-text red'>productAvailabilityTest - Test Case Failed</span>
 					
 				</td>
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:44:58 PM</td>
+				<td class='timestamp'>8:53:57 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text red'>java.lang.AssertionError: expected [My Store] but found [508 Resource Limit Is Reached] - Test Case Failed</span>
+						<span class='badge white-text red'>java.lang.AssertionError: expected [true] but found [false] - Test Case Failed</span>
 					
 				</td>
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:44:58 PM</td>
+				<td class='timestamp'>8:53:57 PM</td>
 				<td class='step-details'>
 						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\CHITTARANJAN _SWAIN_D_Drive\STUDY\Automation_Workspace\MyStoreProject\ScreenShots\myStroreTitleTest_20220922104458.png' src='C:\CHITTARANJAN _SWAIN_D_Drive\STUDY\Automation_Workspace\MyStoreProject\ScreenShots\myStroreTitleTest_20220922104458.png' data-src='C:\CHITTARANJAN _SWAIN_D_Drive\STUDY\Automation_Workspace\MyStoreProject\ScreenShots\myStroreTitleTest_20220922104458.png'>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\productAvailabilityTest_20220924085357.png' src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\productAvailabilityTest_20220924085357.png' data-src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\productAvailabilityTest_20220924085357.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -291,52 +370,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>productAvailabilityTest</span>
-						<span class='test-time'>Sep 22, 2022 10:45:24 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:45:24 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:45:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+19ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:45:34 PM</td>
-				<td class='step-details'>
-						Pass Test case is: productAvailabilityTest
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>orderHistoryAndDetailsTest</span>
-						<span class='test-time'>Sep 22, 2022 10:45:59 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 24, 2022 08:54:15 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:45:59 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:46:29 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 30s+179ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:54:15 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:54:59 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 44s+311ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -348,12 +392,34 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:46:29 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:54:59 PM</td>
 				<td class='step-details'>
-						Pass Test case is: orderHistoryAndDetailsTest
+						<span class='badge white-text red'>orderHistoryAndDetailsTest - Test Case Failed</span>
 					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:54:59 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'CHITTARANJAN-ID', ip: '192.168.29.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78a5649d605502e24a5574b995e97e2e, actions {actions=[org.openqa.selenium.interactions.Sequence@7af327e3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\chitt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58273/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 78a5649d605502e24a5574b995e97e2e - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>8:54:59 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\orderHistoryAndDetailsTest_20220924085459.png' src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\orderHistoryAndDetailsTest_20220924085459.png' data-src='C:\Users\chitt\git\MyStoreProject\MyStoreProject\ScreenShots\orderHistoryAndDetailsTest_20220924085459.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -364,14 +430,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
 					<div class='test-heading'>
 						<span class='test-name'>wishListTest</span>
-						<span class='test-time'>Sep 22, 2022 10:46:44 PM</span>
+						<span class='test-time'>Sep 24, 2022 08:55:24 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:46:44 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:47:21 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 37s+712ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:55:24 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:56:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 44s+127ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -385,7 +451,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:47:21 PM</td>
+				<td class='timestamp'>8:56:09 PM</td>
 				<td class='step-details'>
 						Pass Test case is: wishListTest
 					
@@ -399,14 +465,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyTotalPriceTest</span>
-						<span class='test-time'>Sep 22, 2022 10:47:36 PM</span>
+						<span class='test-time'>Sep 24, 2022 08:56:19 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:47:36 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:48:25 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 48s+998ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:56:19 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:57:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 41s+77ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -420,7 +486,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:48:25 PM</td>
+				<td class='timestamp'>8:57:01 PM</td>
 				<td class='step-details'>
 						Pass Test case is: verifyTotalPriceTest
 					
@@ -434,14 +500,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>addToCartTest</span>
-						<span class='test-time'>Sep 22, 2022 10:48:49 PM</span>
+						<span class='test-time'>Sep 24, 2022 08:57:20 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:48:49 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:49:24 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 35s+681ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:57:20 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:58:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 41s+372ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -455,7 +521,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:49:24 PM</td>
+				<td class='timestamp'>8:58:01 PM</td>
 				<td class='step-details'>
 						Pass Test case is: addToCartTest
 					
@@ -469,14 +535,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>endToEndTest</span>
-						<span class='test-time'>Sep 22, 2022 10:49:49 PM</span>
+						<span class='test-time'>Sep 24, 2022 08:58:14 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 22, 2022 10:49:49 PM</span>
-	<span class='label end-time'>Sep 22, 2022 10:51:36 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 47s+683ms</span>
+	<span class='label start-time'>Sep 24, 2022 08:58:14 PM</span>
+	<span class='label end-time'>Sep 24, 2022 08:59:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 22s+118ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -490,7 +556,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:51:36 PM</td>
+				<td class='timestamp'>8:59:37 PM</td>
 				<td class='step-details'>
 						Pass Test case is: endToEndTest
 					
@@ -541,19 +607,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 22, 2022 10:42:00 PM</div>
+					<div class='panel-lead'>Sep 24, 2022 08:51:21 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 22, 2022 10:51:37 PM</div>
+			 		<div class='panel-lead'>Sep 24, 2022 08:59:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 9m 36s+669ms</div>
+					<div class='panel-lead'>0h 8m 15s+841ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -597,13 +663,13 @@
 		<script>
 			var statusGroup = {
                 parentCount: 10,
-				passParent: 9,
-				failParent: 1,
+				passParent: 6,
+				failParent: 4,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 4,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -628,7 +694,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "loginTest":79.801,"createAccountTest":26.708,"myStroreLogoTest":0.126,"myStroreTitleTest":0.37,"productAvailabilityTest":10.019,"orderHistoryAndDetailsTest":30.179,"wishListTest":37.712,"verifyTotalPriceTest":48.998,"addToCartTest":35.681,"endToEndTest":107.683
+			        "loginTest":11.185,"createAccountTest":42.675,"myStroreLogoTest":0.144,"myStroreTitleTest":0.023,"productAvailabilityTest":11.609,"orderHistoryAndDetailsTest":44.311,"wishListTest":44.127,"verifyTotalPriceTest":41.077,"addToCartTest":41.372,"endToEndTest":82.118
 			};
 		</script>
 		<script src='http://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
